@@ -1,0 +1,28 @@
+Steps for Picobot Map 2 (Maze):
+
+0 xE** -> N 0 # "N corridor rule"
+
+0 *x** -> E 1 # "N intersection rule"
+
+0 NE** -> X 2 # "N dead end rule"
+
+
+1 *x*S -> E 1 # "E corridor rule"
+
+1 ***x -> S 3 # "E intersection rule"
+
+1 *E*S -> X 0 # "E dead end rule"
+
+
+2 N*x* -> W 2 # "W corridor rule"
+
+2 x*** -> N 0 # "W intersection rule"
+
+2 N*W* -> X 3 # "W dead end rule"
+
+
+3 **Wx -> S 3 # "S corridor rule"
+
+3 **x* -> W 2 # "S intersection rule"
+
+3 **WS -> X 0 # "S dead end rule"

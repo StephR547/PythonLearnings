@@ -1,0 +1,15 @@
+Steps for Picobot Map 1 (Empty):
+
+0 x*** -> N 0
+
+0 Nx** -> E 0
+
+0 NE** -> S 1
+
+1 ***x -> S 1
+
+1 **xS -> W 2
+
+2 x*** -> N 2
+
+2 N*** -> S 1
